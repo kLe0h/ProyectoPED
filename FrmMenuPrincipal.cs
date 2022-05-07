@@ -35,5 +35,12 @@ namespace ProyectoPED
         {
             Application.Exit();
         }
+
+        private void btn_ingresar(object sender, EventArgs e)
+        {
+            FrmCatalogo IrAlCatalogo = new FrmCatalogo();
+            this.Visible = false;
+            IrAlCatalogo.Visible = true;
+        }
     }
 }

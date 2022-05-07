@@ -33,7 +33,7 @@ namespace ProyectoPED
                 }
                 else
                 {
-                    FrmMenuPrincipal frm = new FrmMenuPrincipal();
+                    FrmCatalogo frm = new FrmCatalogo();
                     this.Visible = false;
                     frm.Visible = true;
                 }
