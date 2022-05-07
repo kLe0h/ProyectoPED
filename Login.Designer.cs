@@ -196,7 +196,7 @@ namespace ProyectoPED
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.LightCoral;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.RosyBrown;
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.LightCoral;
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.bunifuFlatButton1.BorderRadius = 0;
             this.bunifuFlatButton1.ButtonText = "Salir";
