@@ -78,5 +78,10 @@ namespace ProyectoPED
                 cmbTipoUsuario.ValueMember = "id_tipousuario";
             }
         }
+
+        private void btn_cerrar(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
