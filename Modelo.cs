@@ -28,8 +28,8 @@ namespace ProyectoPED
             
         }
 
-        
 
+        
         public bool existeUsuario(string usuario)
         {
             MySqlDataReader reader;
