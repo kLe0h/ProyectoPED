@@ -53,7 +53,7 @@ namespace ProyectoPED
             }
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             frmLogin IrALogin = new frmLogin();
             this.Visible = false;
@@ -82,6 +82,13 @@ namespace ProyectoPED
         private void btn_cerrar(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btn_regresar(object sender, EventArgs e)
+        {
+            FrmMenuPrincipal IrAMenu = new FrmMenuPrincipal();
+            this.Visible = false;
+            IrAMenu.Visible = true;
         }
     }
 }

@@ -56,5 +56,12 @@ namespace ProyectoPED
         {
             Application.Exit();
         }
+
+        private void btn_regresar(object sender, EventArgs e)
+        {
+            FrmMenuPrincipal IrAMenu = new FrmMenuPrincipal();
+            this.Visible = false;
+            IrAMenu.Visible = true;
+        }
     }
 }

@@ -37,7 +37,7 @@ namespace ProyectoPED
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.cmbTipoUsuario = new System.Windows.Forms.ComboBox();
             this.btn_registrar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_volver = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_salir = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
@@ -142,42 +142,42 @@ namespace ProyectoPED
             this.btn_registrar.TextFont = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_volver
+            // btn_salir
             // 
-            this.btn_volver.Activecolor = System.Drawing.Color.Firebrick;
-            this.btn_volver.BackColor = System.Drawing.Color.Firebrick;
-            this.btn_volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_volver.BorderRadius = 0;
-            this.btn_volver.ButtonText = "Volver";
-            this.btn_volver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_volver.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_volver.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_volver.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_volver.Iconimage = null;
-            this.btn_volver.Iconimage_right = null;
-            this.btn_volver.Iconimage_right_Selected = null;
-            this.btn_volver.Iconimage_Selected = null;
-            this.btn_volver.IconMarginLeft = 0;
-            this.btn_volver.IconMarginRight = 0;
-            this.btn_volver.IconRightVisible = true;
-            this.btn_volver.IconRightZoom = 0D;
-            this.btn_volver.IconVisible = true;
-            this.btn_volver.IconZoom = 90D;
-            this.btn_volver.IsTab = false;
-            this.btn_volver.Location = new System.Drawing.Point(336, 360);
-            this.btn_volver.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btn_volver.Name = "btn_volver";
-            this.btn_volver.Normalcolor = System.Drawing.Color.Firebrick;
-            this.btn_volver.OnHovercolor = System.Drawing.Color.Firebrick;
-            this.btn_volver.OnHoverTextColor = System.Drawing.Color.Maroon;
-            this.btn_volver.selected = false;
-            this.btn_volver.Size = new System.Drawing.Size(157, 43);
-            this.btn_volver.TabIndex = 16;
-            this.btn_volver.Text = "Volver";
-            this.btn_volver.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_volver.Textcolor = System.Drawing.Color.White;
-            this.btn_volver.TextFont = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_volver.Click += new System.EventHandler(this.btnVolver_Click);
+            this.btn_salir.Activecolor = System.Drawing.Color.Firebrick;
+            this.btn_salir.BackColor = System.Drawing.Color.Firebrick;
+            this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_salir.BorderRadius = 0;
+            this.btn_salir.ButtonText = "Regresar";
+            this.btn_salir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_salir.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_salir.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_salir.Iconimage = null;
+            this.btn_salir.Iconimage_right = null;
+            this.btn_salir.Iconimage_right_Selected = null;
+            this.btn_salir.Iconimage_Selected = null;
+            this.btn_salir.IconMarginLeft = 0;
+            this.btn_salir.IconMarginRight = 0;
+            this.btn_salir.IconRightVisible = true;
+            this.btn_salir.IconRightZoom = 0D;
+            this.btn_salir.IconVisible = true;
+            this.btn_salir.IconZoom = 90D;
+            this.btn_salir.IsTab = false;
+            this.btn_salir.Location = new System.Drawing.Point(336, 360);
+            this.btn_salir.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Normalcolor = System.Drawing.Color.Firebrick;
+            this.btn_salir.OnHovercolor = System.Drawing.Color.Firebrick;
+            this.btn_salir.OnHoverTextColor = System.Drawing.Color.Maroon;
+            this.btn_salir.selected = false;
+            this.btn_salir.Size = new System.Drawing.Size(157, 43);
+            this.btn_salir.TabIndex = 16;
+            this.btn_salir.Text = "Regresar";
+            this.btn_salir.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_salir.Textcolor = System.Drawing.Color.White;
+            this.btn_salir.TextFont = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.Click += new System.EventHandler(this.btn_regresar);
             // 
             // label6
             // 
@@ -202,6 +202,7 @@ namespace ProyectoPED
             this.linkLabel1.TabIndex = 18;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¡Inicia sesión aquí!";
+            this.linkLabel1.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label7
             // 
@@ -257,7 +258,7 @@ namespace ProyectoPED
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(518, 85);
+            this.pictureBox1.Location = new System.Drawing.Point(518, 74);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(306, 290);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -293,7 +294,7 @@ namespace ProyectoPED
             this.Controls.Add(this.label7);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.btn_volver);
+            this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.btn_registrar);
             this.Controls.Add(this.cmbTipoUsuario);
             this.Controls.Add(this.txtCorreo);
@@ -322,7 +323,7 @@ namespace ProyectoPED
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.ComboBox cmbTipoUsuario;
         private Bunifu.Framework.UI.BunifuFlatButton btn_registrar;
-        private Bunifu.Framework.UI.BunifuFlatButton btn_volver;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_salir;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label7;

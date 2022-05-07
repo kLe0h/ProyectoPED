@@ -23,5 +23,17 @@ namespace ProyectoPED
             this.Visible = false;
             IrAInicio.Visible = true;
         }
+
+        private void btn_Login(object sender, EventArgs e)
+        {
+            frmLogin IrALogin = new frmLogin();
+            this.Visible = false;
+            IrALogin.Visible = true;
+        }
+
+        private void btn_cerrar(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

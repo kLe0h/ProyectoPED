@@ -164,7 +164,7 @@ namespace ProyectoPED
             this.btn_ingresar.IconVisible = true;
             this.btn_ingresar.IconZoom = 90D;
             this.btn_ingresar.IsTab = false;
-            this.btn_ingresar.Location = new System.Drawing.Point(582, 275);
+            this.btn_ingresar.Location = new System.Drawing.Point(588, 275);
             this.btn_ingresar.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btn_ingresar.Name = "btn_ingresar";
             this.btn_ingresar.Normalcolor = System.Drawing.Color.Firebrick;
@@ -195,11 +195,11 @@ namespace ProyectoPED
             // 
             // bunifuFlatButton1
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.LightCoral;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.LightCoral;
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Firebrick;
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Firebrick;
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Salir";
+            this.bunifuFlatButton1.ButtonText = "Regresar";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -215,20 +215,20 @@ namespace ProyectoPED
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(609, 328);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(588, 328);
             this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.LightCoral;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Firebrick;
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Firebrick;
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.Maroon;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(108, 38);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(157, 43);
             this.bunifuFlatButton1.TabIndex = 25;
-            this.bunifuFlatButton1.Text = "Salir";
+            this.bunifuFlatButton1.Text = "Regresar";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.btnSalir_Click);
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.btn_regresar);
             // 
             // frmLogin
             // 
