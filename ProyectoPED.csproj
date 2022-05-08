@@ -61,6 +61,12 @@
     <Compile Include="Catalogo.Designer.cs">
       <DependentUpon>Catalogo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Catalogo_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo_2.Designer.cs">
+      <DependentUpon>Catalogo_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Control.cs" />
     <Compile Include="FrmMenuPrincipal.cs">
@@ -88,6 +94,9 @@
     <Compile Include="Usuarios.cs" />
     <EmbeddedResource Include="Catalogo.resx">
       <DependentUpon>Catalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo_2.resx">
+      <DependentUpon>Catalogo_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

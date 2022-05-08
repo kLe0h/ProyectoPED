@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoPED
 {
-    public partial class FrmCatalogo : Form
+    public partial class frmCatalogo2 : Form
     {
-        public FrmCatalogo()
+        public frmCatalogo2()
         {
             InitializeComponent();
-        }
-
-        private void btn_regresar(object sender, EventArgs e)
-        {
-            FrmMenuPrincipal IrAMenu = new FrmMenuPrincipal();
-            this.Visible = false;
-            IrAMenu.Visible = true;
         }
 
         private void btn_cerrar(object sender, EventArgs e)
@@ -29,9 +22,9 @@ namespace ProyectoPED
             Application.Exit();
         }
 
-        private void btn_siguiente(object sender, EventArgs e)
+        private void btn_regresar(object sender, EventArgs e)
         {
-            frmCatalogo2 IrAMenu = new frmCatalogo2();
+            FrmCatalogo IrAMenu = new FrmCatalogo();
             this.Visible = false;
             IrAMenu.Visible = true;
         }
